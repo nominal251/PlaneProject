@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Weapons
+<<<<<<< Updated upstream
+=======
+  - Powerup
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX

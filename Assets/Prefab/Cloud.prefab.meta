@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Prefab/Cloud.prefab.meta
 guid: 14dd4fa52784c904e83c0650f3eea560
+========
+guid: fbb0ab91934faa34dbdcb361fd4a94bb
+>>>>>>>> Stashed changes:Assets/Prefab/EnemyTwo.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 

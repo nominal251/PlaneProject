@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Scripts/Cloud.cs.meta
 guid: 0921323da3aa0e04894eb1a198e75a57
+========
+guid: 31c8da05b4220ea4c853755db4d10e5b
+>>>>>>>> Stashed changes:Assets/Scripts/EnemyTwo.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

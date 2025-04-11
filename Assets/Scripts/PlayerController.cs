@@ -7,6 +7,11 @@ public class PlayerController : MonoBehaviour
 
     public int lives;
     private float speed;
+<<<<<<< Updated upstream
+=======
+    private int weaponType;
+    private int shieldIndex;
+>>>>>>> Stashed changes
 
     private GameManager gameManager;
 
@@ -15,6 +20,11 @@ public class PlayerController : MonoBehaviour
 
     public GameObject bulletPrefab;
     public GameObject explosionPrefab;
+<<<<<<< Updated upstream
+=======
+    public GameObject thrusterPrefab;
+    public GameObject shieldPrefab;
+>>>>>>> Stashed changes
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +32,10 @@ public class PlayerController : MonoBehaviour
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         lives = 3;
         speed = 5.0f;
+<<<<<<< Updated upstream
+=======
+        weaponType = 1;
+>>>>>>> Stashed changes
         gameManager.ChangeLivesText(lives);
     }
 
@@ -34,6 +48,7 @@ public class PlayerController : MonoBehaviour
 
     public void LoseALife()
     {
+<<<<<<< Updated upstream
         //lives = lives - 1;
         //lives -= 1;
         lives--;
@@ -41,15 +56,118 @@ public class PlayerController : MonoBehaviour
         if (lives == 0)
         {
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+=======
+        //Do I have a shield? If yes: do not lose a life, but instead deactivate the shield's visibility
+        //If not: lose a life
+        //lives = lives - 1;
+        //lives -= 1;
+        if (shieldIndex == 0)
+        {
+            lives--;
+            gameManager.ChangeLivesText(lives);
+        }
+        
+        if (lives == 0)
+        {
+            Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+            gameManager.GameOver();
+>>>>>>> Stashed changes
             Destroy(this.gameObject);
         }
     }
 
+<<<<<<< Updated upstream
+=======
+    IEnumerator SpeedPowerDown()
+    {
+        yield return new WaitForSeconds(3f);
+        speed = 5f;
+        thrusterPrefab.SetActive(false);
+        gameManager.ManagePowerupText(0);
+        gameManager.PlaySound(2);
+    }
+
+    IEnumerator WeaponPowerDown()
+    {
+        yield return new WaitForSeconds(3f);
+        weaponType = 1;
+        gameManager.ManagePowerupText(0);
+        gameManager.PlaySound(2);
+    }
+
+    IEnumerator ShieldPowerDown()
+    {
+        shieldIndex = 1;
+        yield return new WaitForSeconds(3f);
+        shieldPrefab.SetActive(false);
+        shieldIndex = 0;
+        gameManager.ManagePowerupText(0);
+        gameManager.PlaySound(2);
+    }
+
+    private void OnTriggerEnter2D(Collider2D whatDidIHit)
+    {
+        if(whatDidIHit.tag == "Powerup")
+        {
+            Destroy(whatDidIHit.gameObject);
+            int whichPowerup = Random.Range(1, 5);
+            gameManager.PlaySound(1);
+            switch (whichPowerup)
+            {
+                case 1:
+                    //Picked up speed
+                    speed = 10f;
+                    StartCoroutine(SpeedPowerDown());
+                    thrusterPrefab.SetActive(true);
+                    gameManager.ManagePowerupText(1);
+                    break;
+                case 2:
+                    weaponType = 2; //Picked up double weapon
+                    StartCoroutine(WeaponPowerDown());
+                    gameManager.ManagePowerupText(2);
+                    break;
+                case 3:
+                    weaponType = 3; //Picked up triple weapon
+                    StartCoroutine(WeaponPowerDown());
+                    gameManager.ManagePowerupText(3);
+                    break;
+                case 4:
+                    //Picked up shield
+                    //Do I already have a shield?
+                    //If yes: do nothing
+                    //If not: activate the shield's visibility
+                    StartCoroutine(ShieldPowerDown());
+                    shieldPrefab.SetActive(true);
+                    gameManager.ManagePowerupText(4);
+                    break;
+            }
+        }
+    }
+
+>>>>>>> Stashed changes
     void Shooting()
     {
         if(Input.GetKeyDown(KeyCode.Space))
         {
+<<<<<<< Updated upstream
             Instantiate(bulletPrefab, transform.position + new Vector3(0, 0.5f, 0), Quaternion.identity);
+=======
+            switch(weaponType)
+            {
+                case 1:
+                    Instantiate(bulletPrefab, transform.position + new Vector3(0, 0.5f, 0), Quaternion.identity);
+                    break;
+                case 2:
+                    Instantiate(bulletPrefab, transform.position + new Vector3(-0.5f, 0.5f, 0), Quaternion.identity);
+                    Instantiate(bulletPrefab, transform.position + new Vector3(0.5f, 0.5f, 0), Quaternion.identity);
+                    break;
+                case 3:
+                    Instantiate(bulletPrefab, transform.position + new Vector3(-0.5f, 0.5f, 0), Quaternion.Euler(0, 0, 45));
+                    Instantiate(bulletPrefab, transform.position + new Vector3(0, 0.5f, 0), Quaternion.identity);
+                    Instantiate(bulletPrefab, transform.position + new Vector3(0.5f, 0.5f, 0), Quaternion.Euler(0, 0, -45));
+                    break;
+            }
+>>>>>>> Stashed changes
         }
     }
 

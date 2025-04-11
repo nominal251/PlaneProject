@@ -1,5 +1,17 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
+<<<<<<<< Updated upstream:Assets/Scripts/Coin.cs.meta
 guid: b1efff15fdee52c4a92edd5e524ff063
+========
+guid: 0921323da3aa0e04894eb1a198e75a57
+>>>>>>>> Stashed changes:Assets/Scripts/Cloud.cs.meta
+=======
+<<<<<<<< Updated upstream:Assets/Scripts/Explosion.cs.meta
+guid: df453bed836fdd24fa5203ac0bcec333
+========
+guid: 4f33cd3513fcab54fa22b45782ed4180
+>>>>>>>> Stashed changes:Assets/Scripts/Coin.cs.meta
+>>>>>>> Stashed changes
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
