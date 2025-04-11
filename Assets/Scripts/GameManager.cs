@@ -4,6 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+using UnityEngine.SceneManagement;
+using Unity.VisualScripting;
+>>>>>>> Stashed changes
 =======
 using UnityEngine.SceneManagement;
 using Unity.VisualScripting;
@@ -36,14 +41,23 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI powerupText;
     
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     public float horizontalScreenSize;
     public float verticalScreenSize;
 
     public int score;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
     public TextMeshProUGUI scoreText;
+=======
+    public int cloudMove;
+
+    private bool gameOver;
+>>>>>>> Stashed changes
 =======
     public int cloudMove;
 
@@ -57,11 +71,14 @@ public class GameManager : MonoBehaviour
         verticalScreenSize = 6.5f;
         score = 0;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         Instantiate(playerPrefab, transform.position, Quaternion.identity);
         CreateSky();
         InvokeRepeating("CreateEnemy", 1, 3);
 		InvokeRepeating("CreateCoin", 2, 5);
 =======
+=======
+>>>>>>> Stashed changes
         cloudMove = 1;
         gameOver = false;
         AddScore(0);
@@ -72,6 +89,9 @@ public class GameManager : MonoBehaviour
         InvokeRepeating("CreateCoin", 2, 5);
         StartCoroutine(SpawnPowerup());
         powerupText.text = "No powerups yet!";
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
 
@@ -79,12 +99,18 @@ public class GameManager : MonoBehaviour
     void Update()
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         
 =======
+=======
+>>>>>>> Stashed changes
         if(gameOver && Input.GetKeyDown(KeyCode.R))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
 
@@ -92,6 +118,7 @@ public class GameManager : MonoBehaviour
     {
         Instantiate(enemyOnePrefab, new Vector3(Random.Range(-horizontalScreenSize, horizontalScreenSize) * 0.9f, verticalScreenSize, 0), Quaternion.Euler(180, 0, 0));
     }
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 	
 	void CreateCoin()
@@ -117,10 +144,15 @@ public class GameManager : MonoBehaviour
     {
         livesText.text = "Lives: " + currentLives;
 =======
+=======
+>>>>>>> Stashed changes
 
     void CreateEnemyTwo()
     {
         Instantiate(enemyTwoPrefab, new Vector3(Random.Range(-horizontalScreenSize, horizontalScreenSize) * 0.9f, verticalScreenSize, 0), Quaternion.Euler(180, 0, 0));
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
 

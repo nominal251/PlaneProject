@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Scripts/MainMenu.cs.meta
 guid: faec126e4a05a64418cae89b8abf96c9
+========
+guid: 0921323da3aa0e04894eb1a198e75a57
+>>>>>>>> Stashed changes:Assets/Scripts/Cloud.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

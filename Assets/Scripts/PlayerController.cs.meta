@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Scripts/PlayerController.cs.meta
 guid: d6cd60caef9c0cb4eac00f38203cd42c
+========
+guid: 4f33cd3513fcab54fa22b45782ed4180
+>>>>>>>> Stashed changes:Assets/Scripts/Coin.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

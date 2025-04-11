@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:Assets/Scripts/Glider.cs.meta
 guid: bacf542fc74029e459d29e9b90f6ebd6
+========
+guid: 31c8da05b4220ea4c853755db4d10e5b
+>>>>>>>> Stashed changes:Assets/Scripts/EnemyTwo.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

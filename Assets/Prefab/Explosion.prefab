@@ -1,11 +1,15 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/Prefab/Explosion.prefab
 --- !u!1 &1886710396827344234
 ========
 --- !u!1 &8729755512266785908
 >>>>>>>> Stashed changes:Assets/Prefab/EnemyTwo.prefab
+=======
+--- !u!1 &1886710396827344234
+>>>>>>> Stashed changes
 =======
 --- !u!1 &1886710396827344234
 >>>>>>> Stashed changes
@@ -16,6 +20,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/Prefab/Explosion.prefab
   - component: {fileID: 591261572054598399}
@@ -31,11 +36,16 @@ GameObject:
   - component: {fileID: 6058722748353246716}
 >>>>>>>> Stashed changes:Assets/Prefab/EnemyTwo.prefab
 =======
+=======
+>>>>>>> Stashed changes
   - component: {fileID: 591261572054598399}
   - component: {fileID: 1039479969715957868}
   - component: {fileID: 8467618697582772559}
   - component: {fileID: -4316272080947925924}
   - component: {fileID: 1130939580987164810}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   m_Layer: 0
   m_Name: Explosion
@@ -45,6 +55,7 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/Prefab/Explosion.prefab
 --- !u!4 &591261572054598399
 ========
@@ -53,11 +64,15 @@ GameObject:
 =======
 --- !u!4 &591261572054598399
 >>>>>>> Stashed changes
+=======
+--- !u!4 &591261572054598399
+>>>>>>> Stashed changes
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/Prefab/Explosion.prefab
   m_GameObject: {fileID: 1886710396827344234}
@@ -71,11 +86,17 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 >>>>>>> Stashed changes
+=======
+  m_GameObject: {fileID: 1886710396827344234}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+>>>>>>> Stashed changes
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/Prefab/Explosion.prefab
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -88,17 +109,25 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1039479969715957868
 >>>>>>> Stashed changes
+=======
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1039479969715957868
+>>>>>>> Stashed changes
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/Prefab/Explosion.prefab
   m_GameObject: {fileID: 1886710396827344234}
 ========
   m_GameObject: {fileID: 8729755512266785908}
 >>>>>>>> Stashed changes:Assets/Prefab/EnemyTwo.prefab
+=======
+  m_GameObject: {fileID: 1886710396827344234}
+>>>>>>> Stashed changes
 =======
   m_GameObject: {fileID: 1886710396827344234}
 >>>>>>> Stashed changes
@@ -136,6 +165,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/Prefab/Explosion.prefab
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 493665692101bf047ba0234b472dc345, type: 3}
@@ -147,10 +177,15 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 493665692101bf047ba0234b472dc345, type: 3}
 >>>>>>> Stashed changes
+=======
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 493665692101bf047ba0234b472dc345, type: 3}
+>>>>>>> Stashed changes
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/Prefab/Explosion.prefab
   m_Size: {x: 5.12, y: 5.12}
@@ -160,13 +195,19 @@ SpriteRenderer:
 =======
   m_Size: {x: 5.12, y: 5.12}
 >>>>>>> Stashed changes
+=======
+  m_Size: {x: 5.12, y: 5.12}
+>>>>>>> Stashed changes
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/Prefab/Explosion.prefab
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 --- !u!95 &8467618697582772559
@@ -191,11 +232,14 @@ Animator:
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!114 &5489046097513045939
 ========
 --- !u!114 &-3868323995582640211
 >>>>>>>> Stashed changes:Assets/Prefab/EnemyTwo.prefab
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!82 &-4316272080947925924
 AudioSource:
   m_ObjectHideFlags: 0
@@ -293,6 +337,9 @@ AudioSource:
     m_PostInfinity: 2
     m_RotationOrder: 4
 --- !u!114 &1130939580987164810
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -300,7 +347,10 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<<< Updated upstream:Assets/Prefab/Explosion.prefab
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   m_GameObject: {fileID: 1886710396827344234}
@@ -309,6 +359,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df453bed836fdd24fa5203ac0bcec333, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 ========
   m_GameObject: {fileID: 8729755512266785908}
@@ -405,6 +456,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosionPrefab: {fileID: 1886710396827344234, guid: e8e63456aa1d9d240ab38a0453e59388, type: 3}
 >>>>>>>> Stashed changes:Assets/Prefab/EnemyTwo.prefab
+=======
+  destructionTime: 2.5
+>>>>>>> Stashed changes
 =======
   destructionTime: 2.5
 >>>>>>> Stashed changes

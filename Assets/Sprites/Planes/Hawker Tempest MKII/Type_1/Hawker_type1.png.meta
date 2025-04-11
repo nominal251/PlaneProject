@@ -7,7 +7,11 @@ TextureImporter:
   mipmaps:
     mipMapMode: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     enableMipMap: 1
+=======
+    enableMipMap: 0
+>>>>>>> Stashed changes
 =======
     enableMipMap: 0
 >>>>>>> Stashed changes
@@ -42,6 +46,7 @@ TextureImporter:
     aniso: 1
     mipBias: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     wrapU: 0
     wrapV: 0
     wrapW: 0
@@ -50,6 +55,8 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 0
 =======
+=======
+>>>>>>> Stashed changes
     wrapU: 1
     wrapV: 1
     wrapW: 0
@@ -57,6 +64,9 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 1
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   spriteExtrude: 1
   spriteMeshType: 1
@@ -67,9 +77,15 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 0
+=======
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+>>>>>>> Stashed changes
 =======
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -114,7 +130,10 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
   - serializedVersion: 3
     buildTarget: Windows Store Apps
     maxTextureSize: 2048
@@ -128,6 +147,9 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   spriteSheet:
     serializedVersion: 2
@@ -136,7 +158,11 @@ TextureImporter:
     physicsShape: []
     bones: []
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     spriteID: 
+=======
+    spriteID: 5e97eb03825dee720800000000000000
+>>>>>>> Stashed changes
 =======
     spriteID: 5e97eb03825dee720800000000000000
 >>>>>>> Stashed changes

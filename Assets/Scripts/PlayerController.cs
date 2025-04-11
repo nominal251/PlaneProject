@@ -8,6 +8,11 @@ public class PlayerController : MonoBehaviour
     public int lives;
     private float speed;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+    private int weaponType;
+    private int shieldIndex;
+>>>>>>> Stashed changes
 =======
     private int weaponType;
     private int shieldIndex;
@@ -21,6 +26,11 @@ public class PlayerController : MonoBehaviour
     public GameObject bulletPrefab;
     public GameObject explosionPrefab;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+    public GameObject thrusterPrefab;
+    public GameObject shieldPrefab;
+>>>>>>> Stashed changes
 =======
     public GameObject thrusterPrefab;
     public GameObject shieldPrefab;
@@ -33,6 +43,10 @@ public class PlayerController : MonoBehaviour
         lives = 3;
         speed = 5.0f;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+        weaponType = 1;
+>>>>>>> Stashed changes
 =======
         weaponType = 1;
 >>>>>>> Stashed changes
@@ -49,6 +63,7 @@ public class PlayerController : MonoBehaviour
     public void LoseALife()
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         //lives = lives - 1;
         //lives -= 1;
         lives--;
@@ -57,6 +72,8 @@ public class PlayerController : MonoBehaviour
         {
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
 =======
+=======
+>>>>>>> Stashed changes
         //Do I have a shield? If yes: do not lose a life, but instead deactivate the shield's visibility
         //If not: lose a life
         //lives = lives - 1;
@@ -71,13 +88,19 @@ public class PlayerController : MonoBehaviour
         {
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
             gameManager.GameOver();
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             Destroy(this.gameObject);
         }
     }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
     IEnumerator SpeedPowerDown()
     {
         yield return new WaitForSeconds(3f);
@@ -144,14 +167,20 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     void Shooting()
     {
         if(Input.GetKeyDown(KeyCode.Space))
         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             Instantiate(bulletPrefab, transform.position + new Vector3(0, 0.5f, 0), Quaternion.identity);
 =======
+=======
+>>>>>>> Stashed changes
             switch(weaponType)
             {
                 case 1:
@@ -167,6 +196,9 @@ public class PlayerController : MonoBehaviour
                     Instantiate(bulletPrefab, transform.position + new Vector3(0.5f, 0.5f, 0), Quaternion.Euler(0, 0, -45));
                     break;
             }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         }
     }

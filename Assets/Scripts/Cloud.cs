@@ -16,7 +16,11 @@ public class Cloud : MonoBehaviour
         transform.localScale = transform.localScale * Random.Range(0.1f, 0.6f);
         transform.GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, Random.Range(0.1f, 0.7f));
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         speed = Random.Range(3f, 7f);
+=======
+        speed = Random.Range(3f, 7f) * gameManager.cloudMove;
+>>>>>>> Stashed changes
 =======
         speed = Random.Range(3f, 7f) * gameManager.cloudMove;
 >>>>>>> Stashed changes
@@ -26,6 +30,11 @@ public class Cloud : MonoBehaviour
     void Update()
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+        speed = speed * gameManager.cloudMove;
+
+>>>>>>> Stashed changes
 =======
         speed = speed * gameManager.cloudMove;
 

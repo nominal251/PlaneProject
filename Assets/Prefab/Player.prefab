@@ -1,7 +1,10 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!1 &467491072277573472
 GameObject:
   m_ObjectHideFlags: 0
@@ -108,6 +111,9 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &6465214131589529892
 GameObject:
@@ -143,7 +149,13 @@ Transform:
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_Children: []
+=======
+  m_Children:
+  - {fileID: 9033273055753392952}
+  - {fileID: 4005527563706015470}
+>>>>>>> Stashed changes
 =======
   m_Children:
   - {fileID: 9033273055753392952}
@@ -216,14 +228,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   bulletPrefab: {fileID: 8568965665149658710, guid: b1eed6253aa069845b0edf3f90db799d, type: 3}
   explosionPrefab: {fileID: 1886710396827344234, guid: e8e63456aa1d9d240ab38a0453e59388, type: 3}
 =======
+=======
+>>>>>>> Stashed changes
   lives: 0
   bulletPrefab: {fileID: 8568965665149658710, guid: b1eed6253aa069845b0edf3f90db799d, type: 3}
   explosionPrefab: {fileID: 1886710396827344234, guid: e8e63456aa1d9d240ab38a0453e59388, type: 3}
   thrusterPrefab: {fileID: 6832710425899955907}
   shieldPrefab: {fileID: 467491072277573472}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!82 &-8757797614237147667
 AudioSource:
@@ -233,7 +251,11 @@ AudioSource:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6465214131589529892}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_Enabled: 0
+=======
+  m_Enabled: 1
+>>>>>>> Stashed changes
 =======
   m_Enabled: 1
 >>>>>>> Stashed changes
@@ -388,7 +410,10 @@ Rigidbody2D:
   m_CollisionDetection: 0
   m_Constraints: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!1 &6832710425899955907
 GameObject:
   m_ObjectHideFlags: 0
@@ -495,4 +520,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
