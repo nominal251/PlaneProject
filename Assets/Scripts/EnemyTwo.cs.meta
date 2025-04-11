@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< Updated upstream:Assets/Scripts/Explosion.cs.meta
-guid: 807a506ad57fb8f43881663fc68fcccf
-========
-guid: 4f33cd3513fcab54fa22b45782ed4180
->>>>>>>> Stashed changes:Assets/Scripts/Coin.cs.meta
+guid: 31c8da05b4220ea4c853755db4d10e5b
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
